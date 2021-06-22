@@ -1,27 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans&family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body,
+html {
+  font-family: "Lato", "Helvetica", "Arial", sans-serif;
+}
+body {
+  max-width: 1000px;
+}
 .clear {
-	clear: both;
+  clear: both;
+}
+#top {
+  padding: 100px;
 }
 
+.black {
+  color: #181818;
+}
+.yellow {
+  color: #cf8a05;
+}
+.mainDetailsName,
+.foto,
+.contact {
+  display: inline-table;
+  justify-content: center;
+}
+/*div hr .yellow {
+  height: 2px;
+}*/
 #headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
 }
-
+#headshot > img {
+  border-radius: 50%;
+}
 #name {
-	float: left;
+  float: left;
+}
+.mainDetails {
+  border-bottom: 3px solid #cf8a05;
+  padding: 5% 5% 3% 5%;
 }
 
-#contactDetails {
-	float: right;
+#name h1 {
+  font-family: rokkitt, sans-serif;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 56px;
+  font-weight: 700;
+}
+#name h2 {
+  font-family: "rokkitt", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  margin-top: -33px;
 }
 
+#contactDetails,
+ul li a {
+  float: right;
+  color: #444444;
+  text-decoration: none;
+  list-style: none;
+  line-height: 22px;
+  /*  font-family: Lato;
+*/
+}
+#contactDetails,
+ul li {
+  list-style: none;
+}
 .sectionTitle {
-	float: left;
-	width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+  float: right;
+  width: 72.5%;
+}
+.sectionContent > article > h2 {
+  margin-bottom: 6px;
+}
+#mainArea {
+  margin: 0 5% 5% 5%;
+}
+.personalProfile,
+.work,
+.skill {
+  border-bottom: 1px solid #dedede;
+}
+.skill {
+  max-height: 90px;
+}
+
+.keySkills1,
+.keySkills2,
+.keySkills3 {
+  display: inline-table;
+}
+.mainArea,
+.work,
+.skill {
+  font-family: "lato", sans-serif;
+}
+.personalProfile .sectionTitle {
+  /*  font-family: lato, sans-serif;
+  font-weight: 300;
+*/
+
+  font-style: italic;
+  font-size: 22px;
+  font-weight: 300;
+}
+/*.personalProfile .sectionTitle {
+  font-family: Rokkitt, sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}*/
+.subDetails {
+  font-style: italic;
+  margin: 0;
+  font-weight: 300;
+}
+.sectionContent .texto {
+  margin-top: 6px;
+  font-weight: 300;
+}
+.texto {
+  font-weight: 400;
+  margin: 6px 0 18px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+/*.sectionContent > .subDetails {
+  font-family: Lato, sans-serif;
+  font-weight: 100;
+}*/
+.titulo {
+  font-family: "Rokkitt", Helvetica, sans-serif;
+  font-style: italic;
 }
